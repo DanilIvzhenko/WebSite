@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.navbar {
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar_layout {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar_menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.control_panel a {
+    float: right;
+
+}
+.search_bar {
+    float: left;
+    border: none;
+    margin-top: 40px;
+    margin-right: 100px;
+}
