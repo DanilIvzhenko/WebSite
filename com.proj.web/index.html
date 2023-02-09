@@ -20,18 +20,21 @@
             <div class="navbar_layout">
                 <div class="navbar_menu">
                     <a class="home" href="index.html"><img width="50px" height="50px" src="pics/logo.png"></a>
-                    <a href="#catalog">catalog</a>
+                    <a href="#catalog" class="catalog">catalog</a>
 
                     <div class="search_bar">
-                        <form action="#search_result">
-                            <input type="text" placeholder="Search">
-                            <button>Submit</button>
+                        <form action="#search_result" class="search_form">
+                            <div class="search_form_wrapper">
+                                <input type="text" placeholder="Search" class="search_input">
+                                <button type="button" class="search_cleaner">X</button>
+                            </div>
+                            <button class="search_submit">Submit</button>
                         </form>
                     </div>
-                    <div class="control_panel">
-                        <a href="#login_page" href="#login_page.html"><img width="30px" height="30px" src="pics/login.png"></a>
-                        <a href="#basket_page" href="#basket_page.html"><img width="30px" height="30px" src="pics/basket.png"></a>
-                    </div>
+                    <a href="#login_page.html" class="nav_login"><img width="40px" height="40px"
+                                                                      src="pics/login.png"></a>
+                    <a href="#basket_page.html" class="nav_cart"><img width="40px" height="40px"
+                                                     src="pics/basket.png"></a>
                 </div>
             </div>
         </div>
